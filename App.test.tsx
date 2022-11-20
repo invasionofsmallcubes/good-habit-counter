@@ -1,4 +1,4 @@
-import { expect, test} from '@jest/globals';
+import { expect, test } from '@jest/globals';
 import App from './App';
 import { render, fireEvent } from '@testing-library/react-native';
 
