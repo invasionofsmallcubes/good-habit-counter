@@ -8,7 +8,7 @@ test('given empty GroceryShoppingList, user can add an item to it', () => {
   );
 
   fireEvent.changeText(
-    getByPlaceholderText('Enter grocery item '),
+    getByPlaceholderText('Enter grocery item'),
     'banana'
   );
   fireEvent.press(getByText('Add the item to list'));
